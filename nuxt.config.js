@@ -25,6 +25,7 @@ export default {
   ** Global CSS
   */
   css: [
+    '@/assets/app.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -74,6 +75,12 @@ export default {
     */
     extend (config, ctx) {
     },
-    extractCSS: true
+    extractCSS: true,
+    postcss: {
+      plugins: [
+        require('tailwindcss'),
+        require('autoprefixer')
+      ]
+    }
   }
 }

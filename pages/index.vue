@@ -14,9 +14,9 @@
         <vuetify-logo />
       </div>
       <v-card>
-        <v-card-title class="headline">
+        <div class="text-5xl text-blue-200 my-12">
           Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
+        </div>
         <v-card-text>
           <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
           <p>
